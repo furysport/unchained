@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/shapeshift/unchained/coinstacks/thorchain"
-	"github.com/shapeshift/unchained/pkg/cosmos"
+	"github.com/furysport/unchained/coinstacks/thorchain"
+	"github.com/furysport/unchained/pkg/cosmos"
 )
 
 // ResultTx represents a tx_search ResultTx created from block_result block events

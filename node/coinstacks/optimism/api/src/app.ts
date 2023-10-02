@@ -11,8 +11,8 @@ import {
   AddressFormatter,
   BlockHandler,
   TransactionHandler,
-} from '@shapeshiftoss/common-api'
-import { Tx as BlockbookTx, WebsocketClient, getAddresses, NewBlock } from '@shapeshiftoss/blockbook'
+} from '@sudophunk/common-api'
+import { Tx as BlockbookTx, WebsocketClient, getAddresses, NewBlock } from '@sudophunk/blockbook'
 import { Logger } from '@shapeshiftoss/logger'
 import { gasOracle, service } from './controller'
 import { RegisterRoutes } from './routes'

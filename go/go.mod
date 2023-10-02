@@ -1,4 +1,4 @@
-module github.com/shapeshift/unchained
+module github.com/furysport/unchained
 
 go 1.17
 

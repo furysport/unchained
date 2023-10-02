@@ -1,9 +1,9 @@
 package osmosis
 
 import (
+	"github.com/furysport/unchained/internal/log"
+	"github.com/furysport/unchained/pkg/cosmos"
 	"github.com/pkg/errors"
-	"github.com/shapeshift/unchained/internal/log"
-	"github.com/shapeshift/unchained/pkg/cosmos"
 )
 
 var logger = log.WithoutFields()

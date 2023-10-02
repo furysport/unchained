@@ -2,7 +2,7 @@ import axios from 'axios'
 import axiosRetry from 'axios-retry'
 import BigNumber from 'bignumber.js'
 import { ethers } from 'ethers'
-import { Blockbook, Tx as BlockbookTx } from '@shapeshiftoss/blockbook'
+import { Blockbook, Tx as BlockbookTx } from '@sudophunk/blockbook'
 import { Logger } from '@shapeshiftoss/logger'
 import { ApiError, BadRequestError, BaseAPI, RPCRequest, RPCResponse, SendTxBody } from '../'
 import {
@@ -695,11 +695,11 @@ export class Service implements Omit<BaseAPI, 'getInfo'>, API {
 
     const makeUrl = (url: string): string => {
       if (url.startsWith('ipfs://')) {
-        return url.replace('ipfs://', 'https://gateway.shapeshift.com/ipfs/')
+        return url.replace('ipfs://', 'https://gateway.jinx.army/ipfs/')
       }
 
       if (url.startsWith('ipns://')) {
-        return url.replace('ipns://', 'https://gateway.shapeshift.com/ipns/')
+        return url.replace('ipns://', 'https://gateway.jinx.army/ipns/')
       }
 
       return url

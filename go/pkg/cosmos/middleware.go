@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/furysport/unchained/pkg/api"
 	"github.com/gorilla/mux"
-	"github.com/shapeshift/unchained/pkg/api"
 )
 
 func ValidatePubkey(next http.Handler) http.Handler {

@@ -4,9 +4,9 @@ import (
 	"strconv"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/furysport/unchained/pkg/cosmos"
 	gammtypes "github.com/osmosis-labs/osmosis/v6/x/gamm/types"
 	lockuptypes "github.com/osmosis-labs/osmosis/v6/x/lockup/types"
-	"github.com/shapeshift/unchained/pkg/cosmos"
 )
 
 // ParseMessages will parse any osmosis or cosmos-sdk message types

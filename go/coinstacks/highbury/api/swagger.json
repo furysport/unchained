@@ -413,7 +413,7 @@
           "$ref": "#/definitions/Staking"
         }
       ],
-      "x-go-package": "github.com/shapeshift/unchained/coinstacks/fury/api"
+      "x-go-package": "github.com/furysport/unchained/coinstacks/highbury/api"
     },
     "ApiError": {
       "description": "Generic api error for handling failed requests",
@@ -428,7 +428,7 @@
         }
       },
       "x-go-name": "Error",
-      "x-go-package": "github.com/shapeshift/unchained/pkg/api"
+      "x-go-package": "github.com/furysport/unchained/pkg/api"
     },
     "Attribute": {
       "description": "Contains info about a transaction log event key/val attribute",
@@ -449,7 +449,7 @@
           "example": "/cosmos.bank.v1beta1.MsgSend"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "AttributesByEvent": {
       "description": "Contains info about event attributes keyed by event type",
@@ -457,7 +457,7 @@
       "additionalProperties": {
         "$ref": "#/definitions/ValueByAttribute"
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "BadRequestError": {
       "description": "Contains info about a 400 Bad Request response",
@@ -471,7 +471,7 @@
           "x-go-name": "Error"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/api"
+      "x-go-package": "github.com/furysport/unchained/pkg/api"
     },
     "BaseAccount": {
       "description": "Contains info about required base account details for an address or xpub",
@@ -497,7 +497,7 @@
           "example": "0"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/api"
+      "x-go-package": "github.com/furysport/unchained/pkg/api"
     },
     "BaseInfo": {
       "description": "Contains required base info about the running coinstack",
@@ -512,7 +512,7 @@
           "example": "mainnet"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/api"
+      "x-go-package": "github.com/furysport/unchained/pkg/api"
     },
     "BaseTx": {
       "description": "Contains info about required base transaction details",
@@ -544,7 +544,7 @@
           "x-go-name": "TxID"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/api"
+      "x-go-package": "github.com/furysport/unchained/pkg/api"
     },
     "BaseTxHistory": {
       "description": "Contains info about required base transaction history details",
@@ -573,7 +573,7 @@
           }
         }
       ],
-      "x-go-package": "github.com/shapeshift/unchained/pkg/api"
+      "x-go-package": "github.com/furysport/unchained/pkg/api"
     },
     "CosmosSDKAccount": {
       "description": "Contains common cosmossdk info about account details for an address or xpub",
@@ -612,7 +612,7 @@
         }
       ],
       "x-go-name": "Account",
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "CosmosSDKInfo": {
       "description": "Contains common cosmossdk info about the running coinstack",
@@ -622,7 +622,7 @@
         }
       ],
       "x-go-name": "Info",
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "Delegation": {
       "description": "Contains info about a staking delegation",
@@ -645,7 +645,7 @@
           "$ref": "#/definitions/Validator"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "Event": {
       "description": "Contains info about a transaction log event",
@@ -668,7 +668,7 @@
           "example": "message"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "EventsByMsgIndex": {
       "description": "Contains info about transaction events keyed by message index",
@@ -676,11 +676,11 @@
       "additionalProperties": {
         "$ref": "#/definitions/AttributesByEvent"
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "GasAmount": {
       "type": "string",
-      "x-go-package": "github.com/shapeshift/unchained/pkg/api"
+      "x-go-package": "github.com/furysport/unchained/pkg/api"
     },
     "Info": {
       "description": "Contains info about the running coinstack",
@@ -726,7 +726,7 @@
           }
         }
       ],
-      "x-go-package": "github.com/shapeshift/unchained/coinstacks/fury/api"
+      "x-go-package": "github.com/furysport/unchained/coinstacks/highbury/api"
     },
     "InternalServerError": {
       "description": "Contains info about a 500 Internal Server Error response",
@@ -737,7 +737,7 @@
           "x-go-name": "Message"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/api"
+      "x-go-package": "github.com/furysport/unchained/pkg/api"
     },
     "Message": {
       "description": "Contains info about a transaction message",
@@ -776,7 +776,7 @@
           "$ref": "#/definitions/Value"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "Pagination": {
       "description": "Contains info about pagination metadata",
@@ -792,7 +792,7 @@
           "example": "d2l0aGRyYXdfZGVsZWdhdG9yX3Jld2FyZA=="
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/api"
+      "x-go-package": "github.com/furysport/unchained/pkg/api"
     },
     "Redelegation": {
       "description": "Contains info about a staking redelegation",
@@ -817,7 +817,7 @@
           "$ref": "#/definitions/Validator"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "RedelegationEntry": {
       "description": "Contains info about a redelegation action",
@@ -844,7 +844,7 @@
           "example": "123456.789"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "Reward": {
       "description": "Contains info about a validator reward",
@@ -865,7 +865,7 @@
           "$ref": "#/definitions/Validator"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "Staking": {
       "description": "Contains info about current staking state",
@@ -906,11 +906,11 @@
           "x-go-name": "Unbondings"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "TransactionHash": {
       "type": "string",
-      "x-go-package": "github.com/shapeshift/unchained/pkg/api"
+      "x-go-package": "github.com/furysport/unchained/pkg/api"
     },
     "Tx": {
       "description": "Contains info about a transaction",
@@ -977,7 +977,7 @@
           }
         }
       ],
-      "x-go-package": "github.com/shapeshift/unchained/pkg/api"
+      "x-go-package": "github.com/furysport/unchained/pkg/api"
     },
     "TxHistory": {
       "description": "Contains info about transaction history for an address or xpub",
@@ -1001,7 +1001,7 @@
           }
         }
       ],
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "Unbonding": {
       "description": "Contains info about a staking unbonding",
@@ -1022,7 +1022,7 @@
           "$ref": "#/definitions/Validator"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "UnbondingEntry": {
       "description": "Contains info about an unbonding action",
@@ -1041,7 +1041,7 @@
           "example": "1642533407592"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "ValidationError": {
       "description": "Contains info about a 422 Validation Error response",
@@ -1064,7 +1064,7 @@
           "example": "Validation failed"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/api"
+      "x-go-package": "github.com/furysport/unchained/pkg/api"
     },
     "Validator": {
       "description": "Contains info about a validator",
@@ -1134,7 +1134,7 @@
           "example": "http://superval.com"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "ValidatorCommission": {
       "description": "Contains info about validator commission settings",
@@ -1161,7 +1161,7 @@
           "example": "0.050000000000000000"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "ValidatorUnbonding": {
       "description": "Contains info about validator unbonding settings",
@@ -1184,7 +1184,7 @@
           "example": 1642776702
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "Validators": {
       "description": "Contains a list of validators",
@@ -1208,7 +1208,7 @@
           }
         }
       ],
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "Value": {
       "description": "Contains info about an asset value",
@@ -1229,7 +1229,7 @@
           "example": "udenom"
         }
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     },
     "ValueByAttribute": {
       "description": "Contains info about an attribute value keyed by attribute type",
@@ -1237,7 +1237,7 @@
       "additionalProperties": {
         "type": "string"
       },
-      "x-go-package": "github.com/shapeshift/unchained/pkg/cosmos"
+      "x-go-package": "github.com/furysport/unchained/pkg/cosmos"
     }
   }
 }

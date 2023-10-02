@@ -536,7 +536,7 @@
 		"securitySchemes": {}
 	},
 	"info": {
-		"title": "@shapeshiftoss/bitcoincash-api",
+		"title": "@sudophunk/bitcoincash-api",
 		"version": "12.0.0",
 		"license": {
 			"name": "MIT"

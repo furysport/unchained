@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/furysport/unchained/pkg/api"
+	"github.com/furysport/unchained/pkg/websocket"
 	"github.com/gorilla/mux"
 	ws "github.com/gorilla/websocket"
 	"github.com/pkg/errors"
-	"github.com/shapeshift/unchained/pkg/api"
-	"github.com/shapeshift/unchained/pkg/websocket"
 )
 
 const (

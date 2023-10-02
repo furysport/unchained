@@ -5,9 +5,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/furysport/unchained/pkg/api"
+	"github.com/furysport/unchained/pkg/cosmos"
 	"github.com/pkg/errors"
-	"github.com/shapeshift/unchained/pkg/api"
-	"github.com/shapeshift/unchained/pkg/cosmos"
 	"golang.org/x/sync/errgroup"
 )
 

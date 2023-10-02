@@ -21,13 +21,13 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/furysport/unchained/coinstacks/osmosis"
+	"github.com/furysport/unchained/internal/log"
+	"github.com/furysport/unchained/pkg/api"
+	"github.com/furysport/unchained/pkg/cosmos"
+	"github.com/furysport/unchained/pkg/websocket"
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
-	"github.com/shapeshift/unchained/coinstacks/osmosis"
-	"github.com/shapeshift/unchained/internal/log"
-	"github.com/shapeshift/unchained/pkg/api"
-	"github.com/shapeshift/unchained/pkg/cosmos"
-	"github.com/shapeshift/unchained/pkg/websocket"
 )
 
 const (

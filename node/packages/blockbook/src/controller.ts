@@ -26,8 +26,8 @@ export class Blockbook extends Controller {
 
   constructor(
     args: BlockbookArgs = {
-      httpURL: 'https://indexer.ethereum.shapeshift.com',
-      wsURL: 'wss://indexer.ethereum.shapeshift.com/websocket',
+      httpURL: 'https://indexer.ethereum.jinx.army',
+      wsURL: 'wss://indexer.ethereum.jinx.army/websocket',
     },
     timeout?: number,
     retries = 3

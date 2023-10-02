@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/shapeshift/unchained/internal/log"
+	"github.com/furysport/unchained/internal/log"
 )
 
 var logger = log.WithoutFields()

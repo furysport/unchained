@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/cosmos/cosmos-sdk/simapp/params"
+	"github.com/furysport/unchained/pkg/websocket"
 	"github.com/pkg/errors"
-	"github.com/shapeshift/unchained/pkg/websocket"
 	abci "github.com/tendermint/tendermint/abci/types"
 	tendermintjson "github.com/tendermint/tendermint/libs/json"
 	coretypes "github.com/tendermint/tendermint/rpc/core/types"

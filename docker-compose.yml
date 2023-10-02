@@ -18,7 +18,7 @@ services:
       context: ./node
       dockerfile: Dockerfile.local
     working_dir: /app/node
-    command: sh -c "yarn lerna run watch --scope @shapeshiftoss/* --parallel"
+    command: sh -c "yarn lerna run watch --scope @sudophunk/* --parallel"
     volumes:
       - ./:/app
 
@@ -45,7 +45,7 @@ services:
       - osmosis_default
       - polygon_default
       - thorchain_default
-      - blackfury_default
+      - highbury_default
     ports:
       # The HTTP port
       - "80:80"
@@ -80,5 +80,5 @@ networks:
     name: polygon_default
   thorchain_default:
     name: thorchain_default
-  blackfury_default:
-    name: blackfury_default
+  highbury_default:
+    name: highbury_default

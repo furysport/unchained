@@ -1,5 +1,5 @@
 {
-  "name": "@shapeshiftoss/polygon-api",
+  "name": "@sudophunk/polygon-api",
   "version": "12.0.0",
   "license": "MIT",
   "private": true,
@@ -12,7 +12,7 @@
     "generate": "tsoa spec-and-routes"
   },
   "dependencies": {
-    "@shapeshiftoss/blockbook": "^12.0.0",
-    "@shapeshiftoss/common-api": "^12.0.0"
+    "@sudophunk/blockbook": "^12.0.0",
+    "@sudophunk/common-api": "^12.0.0"
   }
 }

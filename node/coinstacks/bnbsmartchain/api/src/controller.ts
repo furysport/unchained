@@ -1,6 +1,6 @@
 import { ethers } from 'ethers'
 import { Body, Controller, Example, Get, Path, Post, Query, Response, Route, Tags } from 'tsoa'
-import { Blockbook } from '@shapeshiftoss/blockbook'
+import { Blockbook } from '@sudophunk/blockbook'
 import { Logger } from '@shapeshiftoss/logger'
 import {
   BadRequestError,

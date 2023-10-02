@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/furysport/unchained/internal/log"
 	"github.com/google/uuid"
 	"github.com/gorilla/websocket"
-	"github.com/shapeshift/unchained/internal/log"
 )
 
 const (

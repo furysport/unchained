@@ -21,12 +21,12 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/furysport/unchained/internal/log"
+	"github.com/furysport/unchained/pkg/api"
+	"github.com/furysport/unchained/pkg/cosmos"
+	"github.com/furysport/unchained/pkg/websocket"
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
-	"github.com/shapeshift/unchained/internal/log"
-	"github.com/shapeshift/unchained/pkg/api"
-	"github.com/shapeshift/unchained/pkg/cosmos"
-	"github.com/shapeshift/unchained/pkg/websocket"
 )
 
 const (
@@ -54,7 +54,7 @@ func New(httpClient *cosmos.HTTPClient, grpcClient *cosmos.GRPCClient, wsClient 
 			GRPCClient:   grpcClient,
 			WSClient:     wsClient,
 			BlockService: blockService,
-			Denom:        "uatom",
+			Denom:        "ufury",
 		},
 	}
 
@@ -93,7 +93,7 @@ func New(httpClient *cosmos.HTTPClient, grpcClient *cosmos.GRPCClient, wsClient 
 	r.HandleFunc("/", a.Root).Methods("GET")
 
 	r.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
-		api.HandleResponse(w, http.StatusOK, map[string]string{"status": "up", "coinstack": "cosmos", "connections": strconv.Itoa(manager.ConnectionCount())})
+		api.HandleResponse(w, http.StatusOK, map[string]string{"status": "up", "coinstack": "highbury", "connections": strconv.Itoa(manager.ConnectionCount())})
 	}).Methods("GET")
 
 	r.HandleFunc("/swagger", func(w http.ResponseWriter, r *http.Request) {

@@ -5,7 +5,7 @@ module.exports = {
   testEnvironment: 'node',
   testPathIgnorePatterns: ['.d.ts', '.js', '__mocks__', 'mockData'],
   moduleNameMapper: {
-    '^@shapeshiftoss\\/([^/]+)': ['@shapeshiftoss/$1/src', '@shapeshiftoss/$1'],
+    '^@sudophunk\\/([^/]+)': ['@sudophunk/$1/src', '@sudophunk/$1'],
   },
   setupFiles: ['<rootDir>/.jest/setEnvVars.js'],
   globals: {

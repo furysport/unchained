@@ -3,15 +3,8 @@ import cors from 'cors'
 import { join } from 'path'
 import { Server } from 'ws'
 import swaggerUi from 'swagger-ui-express'
-import {
-  evm,
-  middleware,
-  ConnectionHandler,
-  Registry,
-  BlockHandler,
-  TransactionHandler,
-} from '@shapeshiftoss/common-api'
-import { Tx as BlockbookTx, WebsocketClient, getAddresses, NewBlock } from '@shapeshiftoss/blockbook'
+import { evm, middleware, ConnectionHandler, Registry, BlockHandler, TransactionHandler } from '@sudophunk/common-api'
+import { Tx as BlockbookTx, WebsocketClient, getAddresses, NewBlock } from '@sudophunk/blockbook'
 import { Logger } from '@shapeshiftoss/logger'
 import { gasOracle, service } from './controller'
 import { RegisterRoutes } from './routes'

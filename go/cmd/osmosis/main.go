@@ -6,13 +6,13 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/furysport/unchained/coinstacks/osmosis"
+	"github.com/furysport/unchained/coinstacks/osmosis/api"
+	"github.com/furysport/unchained/internal/config"
+	"github.com/furysport/unchained/internal/log"
+	"github.com/furysport/unchained/pkg/cosmos"
 	gammtypes "github.com/osmosis-labs/osmosis/v6/x/gamm/types"
 	lockuptypes "github.com/osmosis-labs/osmosis/v6/x/lockup/types"
-	"github.com/shapeshift/unchained/coinstacks/osmosis"
-	"github.com/shapeshift/unchained/coinstacks/osmosis/api"
-	"github.com/shapeshift/unchained/internal/config"
-	"github.com/shapeshift/unchained/internal/log"
-	"github.com/shapeshift/unchained/pkg/cosmos"
 )
 
 var (
