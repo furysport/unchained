@@ -1,5 +1,5 @@
 {
-  "name": "@sudophunk/blockbook",
+  "name": "@shapeshiftoss/blockbook",
   "version": "14.0.0",
   "license": "MIT",
   "main": "dist/index.js",
