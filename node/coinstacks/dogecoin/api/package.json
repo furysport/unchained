@@ -1,6 +1,6 @@
 {
   "name": "@sudophunk/dogecoin-api",
-  "version": "12.0.0",
+  "version": "13.0.0",
   "license": "MIT",
   "private": true,
   "files": [
@@ -12,8 +12,8 @@
     "generate": "tsoa spec-and-routes"
   },
   "dependencies": {
-    "@sudophunk/blockbook": "^12.0.0",
-    "@sudophunk/common-api": "^12.0.0",
+    "@sudophunk/blockbook": "^13.0.0",
+    "@sudophunk/common-api": "^13.0.0",
     "bech32": "^2.0.0"
   }
 }
