@@ -1,4 +1,4 @@
-import { Blockbook } from '@sudophunk/blockbook'
+import { Blockbook } from '@shapeshiftoss/blockbook'
 import { Service } from '../../../common/api/src/utxo/service'
 import { UTXO } from '../../../common/api/src/utxo/controller'
 

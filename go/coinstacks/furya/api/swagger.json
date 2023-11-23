@@ -413,7 +413,7 @@
           "$ref": "#/definitions/Staking"
         }
       ],
-      "x-go-package": "github.com/furysport/unchained/coinstacks/highbury/api"
+      "x-go-package": "github.com/furysport/unchained/coinstacks/furya/api"
     },
     "ApiError": {
       "description": "Generic api error for handling failed requests",
@@ -726,7 +726,7 @@
           }
         }
       ],
-      "x-go-package": "github.com/furysport/unchained/coinstacks/highbury/api"
+      "x-go-package": "github.com/furysport/unchained/coinstacks/furya/api"
     },
     "InternalServerError": {
       "description": "Contains info about a 500 Internal Server Error response",

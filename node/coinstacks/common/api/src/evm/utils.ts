@@ -1,5 +1,5 @@
 import { ethers } from 'ethers'
-import { ApiError as BlockbookApiError } from '@sudophunk/blockbook'
+import { ApiError as BlockbookApiError } from '@shapeshiftoss/blockbook'
 import { ApiError } from '../'
 
 export const formatAddress = (address: string): string => ethers.utils.getAddress(address)

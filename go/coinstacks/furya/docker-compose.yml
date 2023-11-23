@@ -9,7 +9,7 @@ services:
       - 'traefik.enable=true'
       - 'traefik.http.routers.cosmos-api.rule=Host(`api.cosmos.localhost`)'
       - 'traefik.http.services.cosmos-api.loadbalancer.server.port=3000'
-    command: ["-r", "(pkg|internal|cosmos)", "-R", "swagger", "--", "sh", "-c", "swagger generate spec -w coinstacks/highbury -o coinstacks/highbury/api/swagger.json -x protoc-gen-openapiv2 -m && go run cmd/highbury/main.go -env cmd/highbury/.env"]
+    command: ["-r", "(pkg|internal|cosmos)", "-R", "swagger", "--", "sh", "-c", "swagger generate spec -w coinstacks/furya -o coinstacks/furya/api/swagger.json -x protoc-gen-openapiv2 -m && go run cmd/furya/main.go -env cmd/furya/.env"]
     working_dir: /app
     volumes:
       - ../..:/app

@@ -1,7 +1,7 @@
 import { serialize } from '@ethersproject/transactions'
 import { ethers, Contract, BigNumber } from 'ethers'
 import { Body, Controller, Example, Get, Path, Post, Query, Response, Route, Tags } from 'tsoa'
-import { Blockbook } from '@sudophunk/blockbook'
+import { Blockbook } from '@shapeshiftoss/blockbook'
 import { Logger } from '@shapeshiftoss/logger'
 import { predeploys, getContractInterface } from '@eth-optimism/contracts-bedrock'
 

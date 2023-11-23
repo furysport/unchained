@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/furysport/unchained/coinstacks/highbury/api"
+	"github.com/furysport/unchained/coinstacks/furya/api"
 	"github.com/furysport/unchained/internal/config"
 	"github.com/furysport/unchained/internal/log"
 	"github.com/furysport/unchained/pkg/cosmos"
@@ -16,7 +16,7 @@ var (
 	logger = log.WithoutFields()
 
 	envPath     = flag.String("env", "", "path to env file (default: use os env)")
-	swaggerPath = flag.String("swagger", "coinstacks/highbury/api/swagger.json", "path to swagger spec")
+	swaggerPath = flag.String("swagger", "coinstacks/furya/api/swagger.json", "path to swagger spec")
 )
 
 // Config for running application
@@ -48,10 +48,10 @@ func main() {
 	encoding := cosmos.NewEncoding()
 
 	cfg := cosmos.Config{
-		Bech32AddrPrefix:  "fury",
-		Bech32PkPrefix:    "furypub",
-		Bech32ValPrefix:   "furyvaloper",
-		Bech32PkValPrefix: "furyvalpub",
+		Bech32AddrPrefix:  "furya",
+		Bech32PkPrefix:    "furyapub",
+		Bech32ValPrefix:   "furyavaloper",
+		Bech32PkValPrefix: "furyavalpub",
 		Encoding:          encoding,
 		GRPCURL:           conf.GRPCURL,
 		LCDURL:            conf.LCDURL,
