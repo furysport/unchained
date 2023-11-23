@@ -1,6 +1,6 @@
 {
   "name": "@sudophunk/optimism-api",
-  "version": "14.0.0",
+  "version": "15.0.0",
   "license": "MIT",
   "private": true,
   "files": [
@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "@eth-optimism/contracts-bedrock": "^0.14.0",
-    "@sudophunk/blockbook": "^14.0.0",
-    "@sudophunk/common-api": "^14.0.0",
+    "@shapeshiftoss/blockbook": "^15.0.0",
+    "@sudophunk/common-api": "^15.0.0",
     "bignumber.js": "^9.1.1"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@sudophunk/bitcoincash-api",
-  "version": "14.0.0",
+  "version": "15.0.0",
   "license": "MIT",
   "private": true,
   "files": [
@@ -12,8 +12,8 @@
     "generate": "tsoa spec-and-routes"
   },
   "dependencies": {
-    "@sudophunk/blockbook": "^14.0.0",
-    "@sudophunk/common-api": "^14.0.0",
+    "@shapeshiftoss/blockbook": "^15.0.0",
+    "@sudophunk/common-api": "^15.0.0",
     "bech32": "^2.0.0"
   }
 }
