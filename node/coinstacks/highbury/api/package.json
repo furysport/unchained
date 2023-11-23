@@ -1,0 +1,19 @@
+{
+  "name": "@sudophunk/highbury-api",
+  "version": "15.0.0",
+  "license": "MIT",
+  "private": true,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn generate && tsc",
+    "clean": "rm -rf dist node_modules src/routes.ts src/swagger.json",
+    "generate": "tsoa spec-and-routes"
+  },
+  "dependencies": {
+    "@shapeshiftoss/blockbook": "^15.0.0",
+    "@sudophunk/common-api": "^15.0.0",
+    "bech32": "^2.0.0"
+  }
+}

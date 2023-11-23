@@ -1,0 +1,9 @@
+{
+  "name": "@sudophunk/highbury-pulumi",
+  "version": "15.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf dist node_modules"
+  }
+}
